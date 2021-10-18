@@ -7,7 +7,7 @@ class Item(models.Model):
     size = models.CharField(max_length=5)
     type = models.CharField(max_length=30)
     image = models.ImageField(upload_to='C:/Users/kolya/Documents/GitHub/Arkly_site/Uploads')
-    is_available = models.BooleanField()
+    is_available = models.BooleanField(default=False)
     quantity = models.PositiveSmallIntegerField(default=0)
 
     def __str__(self):
