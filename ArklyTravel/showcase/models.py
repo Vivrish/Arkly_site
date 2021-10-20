@@ -6,7 +6,7 @@ class Item(models.Model):
     price = models.PositiveIntegerField(default=0)
     size = models.CharField(max_length=5)
     type = models.CharField(max_length=30)
-    image = models.ImageField(upload_to='C:/Users/kolya/Documents/GitHub/Arkly_site/Uploads')
+    image = models.ImageField()
     is_available = models.BooleanField(default=False)
     quantity = models.PositiveSmallIntegerField(default=0)
 
