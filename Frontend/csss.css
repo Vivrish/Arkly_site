@@ -1,5 +1,5 @@
 .shapka {
-	text-align: center; position: relative; top: 20px;
+	text-align: center; position: fixed; top: 20px;
 }
 .vsef {
     position: relative; top: -40px;
@@ -29,25 +29,14 @@
 	position: relative; 
 } 
 
-.hud {
-	position: relative;
-	width: 350px;
-	height: 400px;
-	margin: 100px;
-}
-
-.hudak {
-	position: relative; 
-	margin: 100px; 
-	width: 350px; 
-	height: 400px;
-}
 
 .hudi {
 	position: relative; 
-	margin: 100px; 
-	width: 350px; 
-	height: 400px;
+	width: 10vw;
+}
+.hudi:hover{
+	
+	
 } 
 
 .tovar {
