@@ -1,0 +1,20 @@
+{% extends 'showcase/base.html' %}
+
+
+
+{% block content %}
+
+{% block sorting %}
+
+{% endblock sorting %}
+
+{% if length != 0 %}
+<ul>
+    {% for item in items %}
+    <li><a href="{% url 'showcase:detail' item.name %}">{{item.name}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>Nothing to see here</p>
+{% endif %}
+{% endblock content %}

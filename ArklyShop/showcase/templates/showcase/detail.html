@@ -1,0 +1,13 @@
+{% extends 'showcase/base.html' %}
+
+{% block content %}
+<ul>
+    <li><p>{{item.name}}</p></li>
+    <li><p>{{item.description}}</p></li>
+    <li><p>{{item.price}} $</p></li>
+    <li><p>{{item.size}}</p></li>
+    <li><p>{{item.is_available}}</p></li>
+    <li><p>{{item.image}}</p></li>
+    <li><img src="{{item.image.url}}" width="100px"/></li>
+</ul>
+{% endblock content %}

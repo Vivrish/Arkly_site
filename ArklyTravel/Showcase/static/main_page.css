@@ -1,0 +1,56 @@
+.shapka {
+	text-align: center; position: relative; top: 20px;
+}
+.vsef {
+    position: relative; top: -40px;
+}
+.fotki {
+
+	}
+.lupa {
+	width: 50px; float: right; margin-right: 10px;
+}
+.bag {
+	width: 50px; float: right;
+}
+.logo {
+	width: 50px; float: left; margin-left: 10px;
+}
+.fotko {
+	float: left;
+}
+.line {
+    border-bottom: 1px solid black; margin-top: 30px;
+   }
+
+.tovar {
+	display: flex;
+	justify-content: space-between;
+	position: relative; 
+} 
+
+.hud {
+	position: relative;
+	width: 350px;
+	height: 400px;
+	margin: 100px;
+}
+
+.hudak {
+	position: relative; 
+	margin: 100px; 
+	width: 350px; 
+	height: 400px;
+}
+
+.hudi {
+	position: relative; 
+	margin: 100px; 
+	width: 350px; 
+	height: 400px;
+} 
+
+.tovar {
+	display: flex;
+}   
+   

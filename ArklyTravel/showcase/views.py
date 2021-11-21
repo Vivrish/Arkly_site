@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('It\'s a list of items for sale')
+    return HttpResponse('Showcase')
 # Create your views here.

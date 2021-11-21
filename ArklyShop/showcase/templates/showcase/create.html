@@ -1,0 +1,12 @@
+{% extends 'showcase/index.html' %}
+
+{% block sorting %}
+<h1>Hey</h1>
+<form method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="save">
+
+</form>
+<p>{{method}}</p>
+{% endblock sorting %}
